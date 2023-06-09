@@ -1,0 +1,2 @@
+lts/*
+# pin the version of the package after first install which will be the latest lts version at the time of install

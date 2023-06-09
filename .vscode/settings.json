@@ -1,0 +1,29 @@
+{
+  "terminal.integrated.env.linux": {
+    // edit .bashrc/.zshrc to check for this variable and eval it, like so:
+    /*
+    if [[ -n $VSCODE_PROJECT_SPECIFIC_START_COMMAND ]]; then
+      echo "Running: $VSCODE_PROJECT_SPECIFIC_START_COMMAND"
+      eval "$VSCODE_PROJECT_SPECIFIC_START_COMMAND"
+    fi
+    */
+    "VSCODE_PROJECT_SPECIFIC_START_COMMAND": "nvm use"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true
+}
